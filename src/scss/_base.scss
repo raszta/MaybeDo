@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{    
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;    
+    justify-content: center;
+}
+
+table, th, td {
+   border: 1px solid black;  
+}
+
+ td{
+     color: rgb(64, 8, 71);
+     font-weight: 400;
+ }
+
+.container{
+    display: flex;
+    align-items: center;
+     justify-content: center
+}

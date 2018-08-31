@@ -1,0 +1,46 @@
+
+.header__container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./img/autumn-219972_960_720.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-size: 5rem;
+}
+
+.header__title{
+ background-color: white;
+  color: black;
+  font-size: 7vw;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 20px;
+  width: 50%;
+  text-align: center; 
+  position: absolute; 
+  top: 70%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  mix-blend-mode: screen; 
+}
+
+.header__button{
+    border-radius: 2rem;
+    height:6rem;
+    position: absolute; 
+    top: 85%; 
+    left: 45%;  
+    background: white;
+    font-size: 3rem;
+}
+
+.header__button:hover{
+color:white;
+border: 3px solid white;    
+border-radius: 2rem;
+background: lighten(black, 10%);
+box-shadow: 32px 32px 18px 3px rgb(44, 44, 58);
+}

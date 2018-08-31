@@ -1,0 +1,21 @@
+.footer{
+    height: 3rem;
+    background: black;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+}
+
+.footer__list{
+    list-style-type: none;
+    display: flex;    
+}
+
+.footer__list-item--link{
+   text-decoration: none;
+   color: white;
+   margin-right: 1rem;
+}
+.footer__list-item--link:hover{  
+  color: lightcoral;
+}
